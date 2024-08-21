@@ -1,0 +1,10 @@
+.sticky-top {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: #fff;
+    /* Match the header's background color */
+    width: 100%;
+    /* Initial height */
+    transition: height 0.3s ease-in-out;
+}
