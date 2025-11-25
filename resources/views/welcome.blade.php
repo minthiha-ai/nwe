@@ -230,7 +230,7 @@
                                         </div>
                                     </div>
                                     <a data-aos="fade-up" data-aos-delay="100" data-aos-duration="1500"
-                                        class="btn home-banner-btn orange-btn mt-60 btn_effect" href="{{ asset('resume/Thinzar Nwe.pdf') }}">
+                                        class="btn home-banner-btn orange-btn mt-60 btn_effect" href="{{ asset('resume/thinzar_nwe_resume_2025.pdf') }}">
                                         <span class="position-relative z-1">Download My CV</span>
                                     </a>
                                 </div>

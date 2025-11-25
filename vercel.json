@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "framewor": null,
+    "functions": {
+        "api/index.php": { "runtime": "vercel-php@0.6.0" }
+    },
+    "env": {
+        "APP_ENV": "production",
+        "APP_DEBUG": "false",
+        "APP_URL": "https://thinzarnwe.com",
+        "APP_KEY": "base64:L1BoqbV9CLPAV4OPvlfYaEKuUMlMCF00jtsg3hQFi8g=",
+        "LOG_CHANNEL": "stderr",
+        "CACHE_DRIVER": "array",
+        "SESSION_DRIVER": "cookie"
+    }
+}
