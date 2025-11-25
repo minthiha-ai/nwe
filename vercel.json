@@ -1,16 +1,15 @@
 {
-    "version": 2,
-    "framewor": null,
+    "$schema": "https://openapi.vercel.sh/vercel.json",
+    "outputDirectory": "public",
     "functions": {
-        "api/index.php": { "runtime": "vercel-php@0.6.0" }
+        "api/lambda.php": {
+            "runtime": "vercel-php@0.7.4"
+        }
     },
-    "env": {
-        "APP_ENV": "production",
-        "APP_DEBUG": "false",
-        "APP_URL": "https://thinzarnwe.com",
-        "APP_KEY": "base64:L1BoqbV9CLPAV4OPvlfYaEKuUMlMCF00jtsg3hQFi8g=",
-        "LOG_CHANNEL": "stderr",
-        "CACHE_DRIVER": "array",
-        "SESSION_DRIVER": "cookie"
-    }
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/api/lambda.php"
+        }
+    ]
 }
